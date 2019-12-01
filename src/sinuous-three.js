@@ -2,6 +2,9 @@
 import { h } from 'sinuous';
 import { subscribe, cleanup } from 'sinuous/observable';
 
+// This is not the proper way to abstract the Three.js parent-child model but
+// Sinuous has no notion of these API's so I worked with what was available.
+
 export function Scene(props, camera, light, meshes) {
 	const scene = new THREE.Scene();
 	scene.add(light);
