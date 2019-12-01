@@ -1,0 +1,21 @@
+env:
+  es6: true
+  browser: true
+
+extends:
+  - eslint:recommended
+
+parserOptions:
+  ecmaVersion: 9
+  sourceType: module
+
+globals:
+  html: readonly
+  svg: readonly
+  tree: readonly
+
+rules:
+  semi: error
+  no-unused-vars:
+    - error
+    - varsIgnorePattern: ^hs?y?$
