@@ -4,12 +4,14 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "http-server -c-1 -p 5000 public"
+    "start": "http-server -c-1 -p 5000 public",
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "eslint": "^6.7.2",
+    "gh-pages": "^2.1.1",
     "http-server": "^0.12.0",
     "rollup": "^1.12.0",
     "rollup-plugin-babel": "^4.3.3",
