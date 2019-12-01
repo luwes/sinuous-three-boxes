@@ -198,6 +198,8 @@
 	    p = a$1(n$1, !0);
 
 	/* global THREE */
+	// Sinuous has no notion of these API's so I worked with what was available.
+
 	function Scene(props, camera, light, meshes) {
 	  var scene = new THREE.Scene();
 	  scene.add(light);
