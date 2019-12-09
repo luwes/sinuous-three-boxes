@@ -8,7 +8,7 @@ import { WebGLRenderer } from 'three/src/renderers/WebGLRenderer';
 
 // Treeshake only the things we need 🌲
 const THREE = {
-	DirectionalLight,
+  DirectionalLight,
   BoxBufferGeometry,
   Mesh,
   MeshNormalMaterial,
