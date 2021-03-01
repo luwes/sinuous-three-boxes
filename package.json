@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "sinuous": "^0.17.2",
-    "three": "^0.111.0"
+    "three": "^0.125.0"
   }
 }
